@@ -1,0 +1,40 @@
+.custom-cv {
+
+  & [class*='image'] {
+    display: flex;
+    width: 200px;
+    height: 200px;
+
+    & [class*='is-rounded'] {
+      object-fit: cover;
+    }
+  }
+
+  & [class*='has-text-centered'] {
+    display: flex;
+    flex-flow: column;
+    max-width: 200px;
+  }
+
+  & [class*='level-right'] {
+    margin-left: 20px;
+  }
+
+  & [class*='divider'] {
+    background: none;
+    border-top: 1px solid darkgrey;
+    margin: 10px 0;
+    box-shadow: unset;
+  }
+
+  h6[class*='projectTitle'] {
+    font-size: 18px !important;
+    font-weight: bold;
+    margin: 5px 0 7px;
+  }
+
+  [class*='branding'] {
+    display: none
+  }
+}
+
