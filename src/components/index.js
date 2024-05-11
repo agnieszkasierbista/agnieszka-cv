@@ -1,1 +1,0 @@
-export {CustomCV as CV} from './CustomCV';

@@ -18,7 +18,7 @@ export const agnieszkaSierbista = {
             type: 'tag-list',
             title: 'Skills',
             icon: 'rocket',
-            items: ['React', 'Javascript', 'HTML', 'CSS/SCSS', 'TypeScript', 'NextJS', 'styled components']
+            items: ['React', 'Javascript', 'HTML', 'CSS/SCSS', 'TypeScript', 'NextJS', 'styled ui']
         },
         // {
         //     type: 'text',

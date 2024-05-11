@@ -1,5 +1,5 @@
 import CV from 'react-cv'
-import {agnieszkaSierbista} from "@/data/agnieszka-sierbista";
+import {agnieszkaSierbista} from "../../lib/agnieszka-sierbista";
 import style from './style.module.scss'
 import classNames from 'classnames/bind';
 
